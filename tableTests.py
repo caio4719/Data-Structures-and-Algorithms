@@ -1,0 +1,36 @@
+# Caio Beraldi Ribeiro 
+
+from table import Table
+
+print("Tabela por busca binária")
+TableBin = Table(10, "bin")
+TableBin.sortedInsert(44, 9)
+TableBin.sortedInsert(32, 2)
+TableBin.sortedInsert(3, 8)
+TableBin.sortedInsert(15, 7)
+TableBin.sortedInsert(26, 6)
+TableBin.sortedInsert(9, 3)
+TableBin.sortedInsert(42, 5)
+TableBin.sortedInsert(14, 1)
+TableBin.sortedInsert(1, 10)
+print(TableBin)
+TableBin.destroy()
+print(TableBin)
+
+
+print("Tabela por busca linear")
+TableLin = Table(10, "lin")
+TableLin.sortedInsert(44, 9)
+TableLin.sortedInsert(32, 2)
+TableLin.sortedInsert(3, 8)
+TableLin.sortedInsert(15, 7)
+TableLin.sortedInsert(26, 6)
+TableLin.sortedInsert(9, 3)
+TableLin.sortedInsert(42, 5)
+TableLin.sortedInsert(14, 1)
+TableLin.sortedInsert(1, 10)
+TableLin.sortedInsert(7, 4)
+TableLin.delete(26)
+print(TableLin)
+TableLin.destroy()
+print(TableLin)
