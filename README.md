@@ -35,8 +35,10 @@ Install Python is easy as it get, just download on the official site [Python] an
 
 ## How to Run
 There is two easy ways to run it:
-    - With Python IDL opened, go to open and choose the .py file.
-    - Open the terminal at the same directory of the file end run:
+
+- With Python IDL opened, go to open and choose the .py file.
+- Open the terminal at the same directory of the file end run:
+
 ```sh
 pyhton3 "name-file".py
 ```
